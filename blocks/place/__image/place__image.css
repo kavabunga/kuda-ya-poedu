@@ -1,0 +1,6 @@
+.place__image {
+  width: calc(100vw / 2);
+  max-width: 640px;
+  aspect-ratio: 320 / 267;
+  object-fit: cover;
+}

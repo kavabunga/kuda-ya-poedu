@@ -1,0 +1,7 @@
+.place__card {
+  padding: 64px 0 86px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}

@@ -1,0 +1,5 @@
+.opinion {
+  display: flex;
+  flex-direction: column;
+  padding: 0 71px;
+}

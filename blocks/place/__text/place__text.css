@@ -1,9 +1,6 @@
 .place__text {
   padding-right: 212px;
   padding-left: 71px;
-  font-size: 13px;
-  line-height: 1.57;
-  font-weight: 400;
   display: flex;
   flex-direction: column;
   gap: 20px;

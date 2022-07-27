@@ -1,8 +1,8 @@
-/* .section_bottom-gap_normal {
-  margin-bottom: 64px;
+.section_bottom-gap_normal {
+  margin-bottom: 132px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .section_bottom-gap_normal {
     margin-bottom: 88px;
   }

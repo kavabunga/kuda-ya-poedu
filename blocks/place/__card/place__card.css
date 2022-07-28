@@ -4,4 +4,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  transition: padding .1s ease;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__card {
+    padding: 48px 0 65px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__card {
+    padding: 32px 0 44px;
+  }
 }

@@ -7,4 +7,11 @@
   font-weight: 700;
   color: #fecda7;
   text-transform: uppercase;
+  transition: font-size line-height .1s ease;
+}
+
+@media screen and (max-width: 1280px) {
+  .section__subtitle {
+    font-size: 11px;
+  }
 }

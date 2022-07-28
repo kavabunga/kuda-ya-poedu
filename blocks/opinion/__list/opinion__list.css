@@ -7,3 +7,21 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 69px;
 }
+
+@media screen and (max-width: 1024px) {
+  .opinion__list {
+    padding-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .opinion__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .opinion__list {
+    grid-template-columns: 1fr;
+  }
+}

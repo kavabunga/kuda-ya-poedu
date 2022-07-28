@@ -6,4 +6,11 @@
   font-size: 12px;
   line-height: 1;
   font-weight: 700;
+  transition: padding .1s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 32px 32px 0;
+  }
 }

@@ -4,4 +4,17 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  transition: gap padding-right padding-left padding .1s ease;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__text {
+    padding-right: 71px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    padding: 0 32px;
+  }
 }

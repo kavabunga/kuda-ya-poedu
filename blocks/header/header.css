@@ -3,8 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 52px 69px 0;
-  font-family: 'Gilroy', 'Open Sans', 'Helvetica', sans-serif;
   font-size: 12px;
-  font-weight: 900;
   line-height: 1;
+  font-weight: 700;
 }

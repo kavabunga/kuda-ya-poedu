@@ -1,22 +1,4 @@
 @font-face {
-  font-family: 'Gilroy';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("gilroy-extrabold-webfont.woff2") format("woff2"),
-       url("gilroy-extrabold-webfont.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("OpenSans-Regular.woff2") format("woff2"),
-       url("OpenSans-Regular.woff") format("woff");
-}
-
-@font-face {
   font-family: 'Open Sans';
   font-style:  normal;
   font-weight: 700;
@@ -26,10 +8,19 @@
 }
 
 @font-face {
-  font-family: 'Open Sans Condensed';
+  font-family: 'Montserrat';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("Montserrat-Medium.woff2") format("woff2"),
+       url("Montserrat-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Montserrat';
   font-style:  normal;
   font-weight: 700;
   font-display: swap;
-  src: url("OpenSans_SemiCondensed-Bold.woff2") format("woff2"),
-       url("OpenSans_SemiCondensed-Bold.woff") format("woff");
+  src: url("Montserrat-Bold.woff2") format("woff2"),
+       url("Montserrat-Bold.woff") format("woff");
 }

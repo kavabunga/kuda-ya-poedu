@@ -1,8 +1,8 @@
 .section__text {
-  max-width: 513px;
+  max-width: calc(1280px/2 - 71px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 37px;
+  gap: 30px;
 }

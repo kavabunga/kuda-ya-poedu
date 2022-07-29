@@ -1,20 +1,15 @@
 .place__text {
-  padding-right: 212px;
   padding-left: 71px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   transition: gap padding-right padding-left padding .1s ease;
-}
-
-@media screen and (max-width: 1279px) {
-  .place__text {
-    padding-right: 71px;
-  }
+  max-width: 380px;
 }
 
 @media screen and (max-width: 1023px) {
   .place__text {
+    max-width: 100%;
     padding: 0 32px;
   }
 }

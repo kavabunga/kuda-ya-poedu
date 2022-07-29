@@ -1,12 +1,27 @@
 .cover__text {
+  max-width: 513px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  transition: gap .1s ease;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   z-index: 1;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover__text {
+    gap: 26px;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .cover__text {
+    /* max-width: calc(100% - 20px*2); */
     background-color: rgba(255, 255, 255, .4);
+    gap: 12px;
+    padding: 0 20px;
   }
-
 }

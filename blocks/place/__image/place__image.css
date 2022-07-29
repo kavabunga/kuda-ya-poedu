@@ -4,13 +4,10 @@
   aspect-ratio: 640 / 533;
   object-fit: cover;
 }
-/* .place__image:hover{
-  transform: scale(1.1);
-  transition: .5s;
-} */
 
 @media screen and (max-width: 460px) {
   .place__image{
     width: 100vw;
+    min-width: 320px;
   }
 }

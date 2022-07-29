@@ -11,14 +11,16 @@
 @media screen and (max-width: 1023px) {
   .opinion__list {
     padding-top: 56px;
+    gap: 60px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .opinion__list {
-    gap: 50px;
     grid-template-columns: 1fr 1fr;
     padding-top: 30px;
+    column-gap: 60px;
+    row-gap: 40px;
   }
 }
 
@@ -26,7 +28,7 @@
   .opinion__list {
     padding-top: 40px;
     grid-template-columns: 1fr;
-    gap: 20px;
+    column-gap: 20px;
     row-gap: 40px;
   }
 }

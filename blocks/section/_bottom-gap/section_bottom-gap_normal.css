@@ -7,3 +7,8 @@
     margin-bottom: 66px;
   }
 }
+@media screen and (max-width: 460px) {
+  .section_bottom-gap_normal{
+    margin-bottom: 0px;
+  }
+}

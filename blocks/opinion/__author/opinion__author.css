@@ -8,3 +8,9 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 460px) {
+  .opinion__author{
+    margin-bottom: 12px;
+  }
+}

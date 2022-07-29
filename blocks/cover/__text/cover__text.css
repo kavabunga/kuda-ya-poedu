@@ -1,0 +1,12 @@
+.cover__text {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  z-index: 1;
+}
+
+@media screen and (max-width: 460px) {
+  .cover__text {
+    background-color: rgba(255, 255, 255, .4);
+  }
+
+}

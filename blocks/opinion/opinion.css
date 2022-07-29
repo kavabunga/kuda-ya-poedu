@@ -1,7 +1,7 @@
 .opinion {
   display: flex;
   flex-direction: column;
-  padding: 0 71px;
+  padding: 5px 70px 0;
 }
 
 @media screen and (max-width: 1023px) {

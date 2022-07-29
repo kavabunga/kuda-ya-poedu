@@ -1,3 +1,16 @@
-.opinion__item {
-
+.opinion__item{
+    max-width: 230px;
 }
+
+@media screen and (max-width: 460px) {
+   .opinion__item{
+        max-width: 60vw;
+   }
+  }
+
+@media screen and (max-width: 460px) {
+    .opinion__item:nth-child(even){
+        padding-left: 40vw;
+        max-width: 60vw;
+    }
+  }

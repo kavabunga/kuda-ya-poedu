@@ -16,12 +16,17 @@
 
 @media screen and (max-width: 768px) {
   .opinion__list {
+    gap: 50px;
     grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 460px) {
   .opinion__list {
+    padding-top: 40px;
     grid-template-columns: 1fr;
+    gap: 20px;
+    row-gap: 40px;
   }
 }

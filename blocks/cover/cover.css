@@ -11,3 +11,10 @@
     padding: 0 32px;
   }
 }
+
+@media screen and (max-width: 460px) {
+  .cover{
+    grid-template-columns: 100%;
+    padding: 0;
+  }
+}

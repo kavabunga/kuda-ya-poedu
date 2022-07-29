@@ -4,3 +4,9 @@
   color: #010101;
   text-decoration: none;
 }
+
+@media screen and (max-width: 460px) {
+  .menu__link{
+    font-size: 16px;
+  }
+ }

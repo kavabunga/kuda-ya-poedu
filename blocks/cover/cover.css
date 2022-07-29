@@ -6,7 +6,7 @@
   transition: padding .1s ease;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover {
     padding: 0 32px;
   }

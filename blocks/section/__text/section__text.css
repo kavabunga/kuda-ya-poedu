@@ -8,13 +8,13 @@
   transition: gap .1s ease;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .section__text {
     gap: 26px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .section__text {
     max-width: calc(100vw/2 - 32px);
   }

@@ -10,7 +10,7 @@
   transition: font-size line-height .1s ease;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .section__subtitle {
     font-size: 11px;
   }

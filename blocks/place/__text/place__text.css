@@ -7,13 +7,13 @@
   transition: gap padding-right padding-left padding .1s ease;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place__text {
     padding-right: 71px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__text {
     padding: 0 32px;
   }

@@ -2,7 +2,7 @@
   margin-bottom: 132px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .section_bottom-gap_normal {
     margin-bottom: 66px;
   }
